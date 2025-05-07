@@ -24,19 +24,19 @@ This is an AI-powered Task Manager that understands your tasks written in natura
 ### How to Use (In Jupyter Notebook)
 ## Find the Source Code Run them all and then 
 
-1). Add a Task  
-       --- add_task("Prepare slides by end of today")
+1). Add a Task : 
+       -- add_task(" ")
 
         -- Predict category and priority
         -- Extract a deadline
         -- Save to CSV and database
         -- Retrain the ML models
 
-2). View Tasks
+2). View Tasks :
        -- view_tasks()
         - See all tasks with their deadlines and whether they’re due, overdue, or upcoming.
 
-3). Delete All Tasks
+3). Delete All Tasks :
        -- delete_all_tasks()
         - This will clear the database. Use with care.
 

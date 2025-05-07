@@ -1,6 +1,8 @@
 # Vishnuvardhan-Task-Manager---Assessment
 # AI Task Manager
 
+## Project Explanation Video Link - https://vimeo.com/1082043454/d7b1c18c90?ts=0&share=copy
+
 This is an AI-powered Task Manager that understands your tasks written in natural language (like "Submit report by Friday") and automatically:
 
 - Classifies them into categories like Work, Personal, Errand, or Learning

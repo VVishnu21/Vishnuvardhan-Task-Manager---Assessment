@@ -25,12 +25,12 @@ This is an AI-powered Task Manager that understands your tasks written in natura
 ## Find the Source Code Run them all and then 
 
 1). Add a Task  
-       -- add_task("Prepare slides by end of today")
-It will:
-       -- Predict category and priority
-       -- Extract a deadline
-       -- Save to CSV and database
-       -- Retrain the ML models
+       --- add_task("Prepare slides by end of today")
+
+        -- Predict category and priority
+        -- Extract a deadline
+        -- Save to CSV and database
+        -- Retrain the ML models
 
 2). View Tasks
        -- view_tasks()

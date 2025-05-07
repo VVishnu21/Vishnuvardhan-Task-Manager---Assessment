@@ -34,11 +34,11 @@ This is an AI-powered Task Manager that understands your tasks written in natura
 
 2). View Tasks
        -- view_tasks()
-        See all tasks with their deadlines and whether they’re due, overdue, or upcoming.
+        - See all tasks with their deadlines and whether they’re due, overdue, or upcoming.
 
 3). Delete All Tasks
        -- delete_all_tasks()
-        This will clear the database. Use with care.
+        - This will clear the database. Use with care.
 
 ## How It Works
  --- spaCy detects date expressions like "tomorrow", "this evening"

@@ -25,24 +25,38 @@ This is an AI-powered Task Manager that understands your tasks written in natura
 
 ### How to Use (In Jupyter Notebook)
 
+## Install Dependencies (In Jupyter Notebook)
+
+         - pip install spacy pandas scikit-learn dateparser
+         - python -m spacy download en_core_web_md
+
 ## Find the Source code in the "main" area repository named as "Task Manager Agent.ipynb"
-## Find the Source Code Run them all and then 
 
-1). Add a Task : 
-       -- add_task(" ")
-
-        -- Predict category and priority
+###  How to Use (In Jupyter Notebook)
+# Add a Task
+     - add_task("Submit final report by tomorrow")
+     -- Predict category and priority
         -- Extract a deadline
         -- Save to CSV and database
         -- Retrain the ML models
 
-2). View Tasks :
-       -- view_tasks()
-        - See all tasks with their deadlines and whether they’re due, overdue, or upcoming.
+Automatically detects:
 
-3). Delete All Tasks :
-       -- delete_all_tasks()
-        - This will clear the database. Use with care.
+   -- Category: Work
+
+   -- Priority: High
+
+   -- Deadline: e.g. 2025-05-08
+
+# View Tasks
+     - view_tasks()
+     - Shows all tasks with their category, priority, deadline, and status (e.g. Due Today, Overdue).
+
+# Delete All Tasks
+     - delete_all_tasks()
+     - Clears all tasks from the database.
+
+
 
 ## How It Works
  --- spaCy detects date expressions like "tomorrow", "this evening"
@@ -56,6 +70,3 @@ This is an AI-powered Task Manager that understands your tasks written in natura
 --- SQLite stores tasks persistently
 
 --- CSV keeps history for continuous retraining
-
-
-
